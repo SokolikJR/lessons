@@ -1,0 +1,66 @@
+@import url(reset.css);
+*{
+    /* color: red; */
+}
+.header h1{
+    color: red;
+}
+div.list {
+    color: blue;
+}
+#script{
+    /* color: brown; */
+}
+div#power{
+    /* color: blueviolet; */
+}
+#power h3,
+#people ul {
+    color: rgb(21, 138, 138);
+}
+[class*="__title"]{
+    color: darkgreen;
+}
+ul.history{
+    color: orange;
+}
+a{
+    color: lightgreen;
+}
+#people>h2{
+    color: brown;
+}
+.mainscript>p{
+    color: rgb(224, 224, 39);
+}
+.main~p{
+    color: rgb(42, 165, 48);
+}
+.main+p{
+    color: mediumslateblue;
+}
+.movies .history .january{
+    color: blue;
+}
+.unity~li{
+    color: darkgoldenrod;
+}
+.foe~li{
+    color: rgb(209, 127, 127);
+}
+.foe+li{
+    color: darkviolet;
+}
+.movies h2, 
+.story h2{
+    color: rgb(136, 163, 13);
+}
+.boss.hater{
+    color: red;
+}
+.ex.love{
+    color: pink;
+}
+.normal+li{
+    color: blue;
+}
